@@ -6,6 +6,10 @@
 A premium fintech landing page built with React, TypeScript, Tailwind CSS, and Framer Motion.  
 Designed to deliver a modern digital banking experience with elegant animations, responsive layouts, and a sleek luxury-inspired interface.
 
+## Live Demo
+
+🚀 [View Nova Pay Live](https://nova-pay-eight.vercel.app/)
+
 
 ## ✨ Overview
 
@@ -122,13 +126,7 @@ npm run dev
 
 ## 📸 Screenshot
 
-Add your project screenshot here:
-
-```bash
-./src/assets/Screenshoot.png
-```
-
-Then update the README image path if necessary.
+![Nova Pay Preview](./src/assets/Screenshoot.png)
 
 ---
 
@@ -161,9 +159,6 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 Built with passion by Joel Hart.
-
-* GitHub: [https://github.com/yourusername](https://github.com/HartJoel)
-
 
 ---
 
