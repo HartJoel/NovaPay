@@ -1,73 +1,181 @@
-# React + TypeScript + Vite
+# NOVA PAY — Premium Digital Banking Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````md
+# NOVA PAY 💳
 
-Currently, two official plugins are available:
+A premium fintech landing page built with React, TypeScript, Tailwind CSS, and Framer Motion.  
+Designed to deliver a modern digital banking experience with elegant animations, responsive layouts, and a sleek luxury-inspired interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Live Demo:** [Exclusive Store]()
 
-## React Compiler
+![NOVA PAY Preview]
+![Shop Screenshot](./src/assets/Screenshot-1.png)
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Overview
 
-## Expanding the ESLint configuration
+NOVA PAY is a high-end banking and fintech landing page focused on delivering a smooth and visually engaging user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The project combines:
+- Modern UI/UX principles
+- Smooth scroll animations
+- Premium fintech aesthetics
+- Responsive design architecture
+- Reusable component structure
+- Interactive motion effects
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project was built to sharpen frontend engineering skills while creating a production-level landing page experience.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Features
+
+- ⚡ Modern React + TypeScript architecture
+- 🎨 Premium fintech-inspired UI design
+- 📱 Fully responsive across all devices
+- ✨ Smooth animations with Framer Motion
+- 🌙 Dark luxury theme with ambient glows
+- 🧩 Reusable component-based structure
+- 🔥 Interactive hover and scroll effects
+- 💎 Glassmorphism & gradient styling
+- 📌 Sticky animated navigation bar
+- 🎯 Clean and scalable folder structure
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| React | Frontend Framework |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| React Icons | Icons |
+| Vite | Development Environment |
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Features.tsx
+│   ├── Testimonials.tsx
+│   └── Footer.tsx
+│
+├── constants/
+│   └── index.ts
+│
+├── assets/
+│
+├── App.tsx
+└── main.tsx
+````
+
+---
+
+## 🎨 Design Inspiration
+
+The visual direction of NOVA PAY was inspired by:
+
+* Modern fintech platforms
+* Luxury digital banking interfaces
+* Minimal dark UI systems
+* Glassmorphism and ambient lighting aesthetics
+
+The goal was to create a product that feels:
+
+* Premium
+* Fast
+* Trustworthy
+* Futuristic
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/nova-pay.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+cd nova-pay
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshot
+
+Add your project screenshot here:
+
+```bash
+/public/screenshot.png
+```
+
+Then update the README image path if necessary.
+
+---
+
+## 🌟 Future Improvements
+
+* Authentication pages
+* Dashboard UI
+* Pricing section
+* Mobile menu animations
+* API integration
+* Dark/Light theme toggle
+* Accessibility improvements
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the project and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Built with passion by Joel Hart.
+
+* GitHub: [https://github.com/yourusername](https://github.com/HartJoel)
+
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐
+It helps support the project and motivates future development.
+
+```
 ```
