@@ -6,10 +6,10 @@
 A premium fintech landing page built with React, TypeScript, Tailwind CSS, and Framer Motion.  
 Designed to deliver a modern digital banking experience with elegant animations, responsive layouts, and a sleek luxury-inspired interface.
 
-🌐 **Live Demo:** [Exclusive Store]()
+🌐 **Live Demo:** [Nova Pay](https://nova-pay-eight.vercel.app/)
 
 ![NOVA PAY Preview]
-![Shop Screenshot](./src/assets/Screenshot-1.png)
+![Shop Screenshot](./src/assets/Screenshoot.png)
 ---
 
 ## ✨ Overview
